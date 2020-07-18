@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 30 — Build 30 things with vanilla JS in 30 days with 30 tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png">
+</head>
+<body>
+    <header class="page-header">
+        <h1 class="logo"><a href="#" class="logo-link"><span class="highlight hashtag">#</span>JavaScript<span class="highlight number">30</span></a></h1>
+        <p class="text"><span class="highlight">30</span> Day Vanilla <span class="highlight">JS</span> Coding Challenge</p>
+        <p class="text">Build <span class="highlight">30</span> things in <span class="highlight">30</span> days with <span class="highlight">30</span> tutorials</p>
+        <p class="text"><span class="highlight">No</span> Frameworks<span class="cross">&#215;</span><span class="highlight">No</span> Compilers<span class="cross">&#215;</span><span class="highlight">No</span> Libraries<span class="cross">&#215;</span><span class="highlight">No</span> Boilerplate</p>
+        <a href="#" class="account-button">My Account &#8594;</a>
+    </header>
+    <main>
+        <section class="start-section container">
+            <div class="free">
+                <p><span class="side dollar">$</span>0<span class="side">00</span></p>
+                <strong class="bottom">Free</strong>
+            </div>
+            <div class="start-today">
+                <h3 class="heading">Start The Challenge Today!</h3>
+                <form action="#" method="POST" name="join" class="join-form">
+                    <input type="email" name="email" placeholder="Email Address" class="email" required>
+                    <input type="submit" value="Join 350,000 Others" class="submit-button">
+                </form>
+                <p>Sign up to get immediate access to the course dashboard</p>
+                <p>You'll get all 30 days at once so you can binge watch <span class="highlight">Netflix style</span>.</p>
+            </div>
+            <div class="what-u-get">
+                <h3 class="heading">What You'll Get</h3>
+                <ul class="feature-list">
+                    <li class="feature-item">Instant Access to all 30 videos</li>
+                    <li class="feature-item">30 days of Starter Files</li>
+                    <li class="feature-item">Completed HTML, CSS and JS Solutions for each day</li>
+                </ul>
+            </div>
+        </section>
+        <section class="summary-section">
+            <h2 class="heading highlight">There is no formation without repetition.</h2>
+            <div class="container">
+                <video src="videos/summary.mp4" poster="images/main/poster.jpg" preload="metadata" onclick="this.paused ? this.play() : this.pause();" class="video"></video>
+                <div class="note">
+                    <p>So, you've done a few courses and read a few books but still don't feel great about your relationship with JavaScript.</p>
+                    <p>How do you get better?</p>
+                    <p>Build things. Lots of things. Build 1,000 things. Keep it up and don't stop. Seriously.</p>
+                    <p>This has always been my advice. Just put in the work and you will get better.</p>
+                    <p>But Wes, what should I build? I have no ideas! Please don't make me do another todo app.</p>
+                    <p>Ideas, Eh? I've got lots! This is JavaScript30 — let's build 30 things together.</p>
+                </div>
+            </div>
+        </section>
+        <section class="about-section">
+            <div class="container">
+                <article class="description who">
+                    <h3>Who is this For?</h3>
+                    <p>Beginner to Intermediate developers and designers who want to become comfortable with both JavaScript fundamentals and working in the DOM without a library.</p>
+                    <p>You should already know some JavaScript to start - This isn't a JavaScript 101 course. We learn by application - encountering many new situations while talking about the hows, the whys and the whats that we use to solve them.</p>
+                    <p>We steer clear of opinionated design patterns, frameworks, libraries and any type of abstraction. These things are great and often needed, but can obstruct learning and constrain initial understanding.</p>
+                    <p>These tutorials rely heavily upon browser APIs, most of which involve interaction with the page. If you are stuck in <code class="log">console.log()</code> land, these videos are your next step. Oh, the stuff we build is really fun!</p>
+                </article>
+                <article class="description how">
+                    <h3>Wes, How is this Free?</h3>
+                    <p>These videos are free as a thank-you to everyone who has supported my premium courses as well as because I believe in giving back to the community. I see a huge need for these videos and I really think it will help many of you become comfortable creating with JavaScript.</p>
+                    <p>While I've spent over 300 hours on JavaScript30, enough people find they really click with my teaching style and continue their learning with one of my <a href="#">premium courses</a>. It all works out!</p>
+                </article>
+                <article class="description im">
+                    <h3>Hey, I'm Wes Bos</h3>
+                    <img src="images/main/photo.jpg" alt="Smiling Wes Bos" width="150" class="photo">
+                    <p>Hey — I'm <a href="#">Wes Bos</a>. I'm a Full Stack Developer, Speaker and Teacher from Canada. I have taught over 500 students in 200+ classes and spoken at dozens of conferences around the world.</p>
+                    <p>I'm the guy behind <a href="#">React For Beginners</a>, <a href="#">ES6 for Everyone</a>, <a href="#">Learn Node</a> and <a href="#">Sublime Text Power User</a> which together have sold over 40,000 copies. I'm also the author of <a href="#">JavaScript30</a>, <a href="#">LearnRedux.com</a>, <a href="#">Flexbox.io</a> and <a href="#">Command Line Power User</a>, a set of free video series. Over 120,000 people have taken at least one of my free video courses!</p>
+                </article>
+            </div>
+        </section>
+        <section class="course-section">
+            <div class="container">
+                <h2 class="heading">30 Days<span class="cross highlight">&#215;</span>30 Videos</h2>
+                <p class="notice"><strong>Accessible and ESL friendly!</strong> Closed Captions are provided for every video. Captions done by <a href="#">Speechpad</a>.</p>
+                <ol class="project-list">
+                    <li class="project-item">
+                        <h3>JavaScript Drum Kit</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                        <small class="tag style">Friends with CSS</small>
+                        <small class="tag media">Audio + Video</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>CSS + JS Clock</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                        <small class="tag style">Friends with CSS</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Playing with CSS Variables and JS</h3>
+                        <small class="tag style">Friends with CSS</small>
+                        <small class="tag fun">Fun + Experimental</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Array cardio Day 1</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Flex Panels Image Gallery</h3>
+                        <small class="tag style">Friends with CSS</small>
+                        <small class="tag interface">DOM & Interface</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Ajax Type Ahead</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Array cardio Day 2</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Fun with HTML5 Canvas</h3>
+                        <small class="tag fun">Fun + Experimental</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>14 Must Know Dev Tools Tricks</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Hold Shift to Check Multiple Checkboxes</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Custom HTML5 Video Player</h3>
+                        <small class="tag media">Audio + Video</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Key Sequence Detection (KONAMI CODE)</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Slide In on Scroll</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Object and Arrays - Reference VS Copy</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>LocalStorage and Event Delegation</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                        <small class="tag interface">DOM & Interface</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>CSS Text Shadow Mouse Move Effect</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                        <small class="tag style">Friends with CSS</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Sorting Band Names without articles</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Tally String Times with Reduce</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Unreal Webcam Fun</h3>
+                        <small class="tag access">Hardware Access</small>
+                        <small class="tag fun">Fun + Experimental</small>
+                        <small class="tag media">Audio + Video</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Native Speech Recognition</h3>
+                        <small class="tag media">Audio + Video</small>
+                        <small class="tag fun">Fun + Experimental</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Geolocation based Speedometer and Compass</h3>
+                        <small class="tag access">Hardware Access</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Follow Along Links</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                        <small class="tag style">Friends with CSS</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Speech Synthesis</h3>
+                        <small class="tag fun">Fun + Experimental</small>
+                        <small class="tag media">Audio + Video</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Sticky Nav</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                        <small class="tag fundamentals">Fundamentals</small>
+                        <small class="tag style">Friends with CSS</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Event Capture, Propagation, Bubbling and Once</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Stripe Follow Along Dropdown</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                        <small class="tag fun">Fun + Experimental</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Click and Drag to Scroll</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                        <small class="tag fundamentals">Fundamentals</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Video Speed Controller UI</h3>
+                        <small class="tag media">Audio + Video</small>
+                        <small class="tag fun">Fun + Experimental</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Countdown Clock</h3>
+                        <small class="tag fundamentals">Fundamentals</small>
+                        <small class="tag style">Friends with CSS</small>
+                    </li>
+                    <li class="project-item">
+                        <h3>Whack A Mole Game</h3>
+                        <small class="tag interface">DOM & Interface</small>
+                        <small class="tag style">Friends with CSS</small>
+                        <small class="tag fun">Fun + Experimental</small>
+                    </li>
+                    <li class="project-item invisible"></li>
+                    <li class="project-item invisible"></li>
+                </ol>
+            </div>
+        </section>
+        <section class="faq-section">
+            <div class="container">
+                <h2 class="heading">FAQ</h2>
+                <div class="qa">
+                    <h3 class="question">What font / color scheme / editor / terminal is that?</h3>
+                    <p class="answer">I answer everything over at <a href="#">wesbos.com/uses</a>. Feel free to <a href="#">tweet me</a> any more questions!</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">I have a question, can I email you?</h3>
+                    <p class="answer">While I'd absolutely love to help everyone out, there are 348,990 people taking this course. I hope to get a forum setup sometime soon. If you are a member of one of my premium classes, you can jump into the #JavaScript30 room in our Slack channel.</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">I found another way! Could it be?!</h3>
+                    <p class="answer">Yes! There are probably 100 different ways to solve each of these exercises, if your answer doesn't line up with mine, it means you did a really good job at trying to figure it out yourself. My answers are by no means the best answers - just a single way of doing it. Instead of emailing me - write a blog post about how you did it. Share what you know!</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">I lost, deleted or never got my welcome email! What do I do?</h3>
+                    <p class="answer">Log into <a href="#">your account</a>, or create an account with the same email you used to get the series.</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">Can I host a meetup / study group? Can I stream these in my classroom? Can I arrange a playing?</h3>
+                    <p class="answer">Yep yep yep - as long as you do not redistribute the videos you are welcome and encouraged to do this.</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">Can I re-distribute these and then charge money for them?</h3>
+                    <p class="answer">I can't believe I have to make this a FAQ. No, you silly goose.</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">I found a typo or errata</h3>
+                    <p class="answer">If it's a typo on the site, please shoot me an email <a href="#">here</a>. If it's a correction in the code, you can submit those via GitHub! Please see the above FAQ if you found a better way.</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">What is that GNARLY AF tune at the start? ⛓🎸🤘</h3>
+                    <p class="answer">So good! <a href="#">The Divided - For Tonight We're Strangers</a>. Used with permission of course.</p>
+                </div>
+                <div class="qa">
+                    <h3 class="question">You say JavaScript funny</h3>
+                    <p class="answer">um, I think you mean I say it the correct way! eh?</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer container">
+        <a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw" class="social twitter-hashtag-button" data-size="large" data-show-count="false">Tweet #LoveTwitter</a>
+        <div class="social fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button_count" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+        <div class="social fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>
+        <a href="https://twitter.com/TwitterDev?ref_src=twsrc%5Etfw" class="social twitter-follow-button" data-show-count="false" data-size="large">Follow @TwitterDev</a>
+    </footer>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0" nonce="pOmbcIK5"></script>
+</body>
+</html>
