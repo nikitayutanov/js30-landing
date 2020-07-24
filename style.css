@@ -196,12 +196,12 @@ header, main {
     line-height: 60px;
 }
 
-.side {
+.figure {
     font-size: 16px;
     vertical-align: text-top;
 }
 
-.bottom {
+.price {
     font-size: 16px;
     font-weight: bold;
     text-transform: uppercase;
