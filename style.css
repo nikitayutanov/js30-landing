@@ -127,6 +127,7 @@ header, main {
     font-family: 'ADAM.CG PRO', sans-serif;
     font-size: 20px;
     text-transform: uppercase;
+    text-shadow: 2px 2px 0 rgba(0,0,0,0.2);
 
     margin-bottom: 40px;
 }
