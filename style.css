@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
 }
 
-main {
+header, main {
     position: relative;
 }
 
@@ -61,6 +61,7 @@ main {
 .page-header {
     width: 100%;
     overflow-x: hidden;
+    z-index: 1;
 
     background: url(images/backgrounds/header.jpg) bottom/cover no-repeat;
 
@@ -162,10 +163,10 @@ main {
 /* Sign-up */
 
 .start-section {
-    position: absolute;
-    top: -100px;
-    left: 0;
-    right: 0;
+    position: relative;
+    z-index: 2;
+
+    margin-top: -100px;
 
     display: flex;
     justify-content: space-evenly;
@@ -292,11 +293,13 @@ main {
 
 /* Summary */
 
-.summary-section {
+.intro-container {
     background: url(images/backgrounds/summary.png);
     background-size: 240px;
+}
 
-    padding-top: 130px;
+.summary-section {
+    padding-top: 20px;
 }
 
 .summary-section .container {
@@ -753,11 +756,8 @@ main {
 
 @media screen and (max-width: 1200px) {
     .container {
-        margin: 0 20px;
-    }
-
-    .summary-section {
-        padding-top: calc(400px - 20vw);
+        margin-right: 20px;
+        margin-left: 20px;
     }
 }
 
